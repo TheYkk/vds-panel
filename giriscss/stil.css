@@ -1,0 +1,210 @@
+@import '../../ionicons/css/ionicons.css';
+@import 'acordion.css';
+
+html{
+    background: #5a5a5a;
+}
+
+body{
+    font:14px 'GeomanistRegular', sans-serif;
+    color: #333;
+}
+
+@font-face {
+    font-family: 'GeomanistRegular'; 
+    src: url('../fonts/GeomanistRegular.eot');   
+    src: url('../fonts/GeomanistRegular.eot') format('embedded-opentype'),   
+    url('../fonts/GeomanistRegular.woff2') format('woff2'),   
+    url('../fonts/GeomanistRegular.woff') format('woff'),   
+    url('../fonts/GeomanistRegular.ttf') format('truetype'),    
+    url('../fonts/GeomanistRegular.svg#GeomanistRegular') format('svg');
+}
+
+::-webkit-scrollbar { display: none; }
+
+.input, .button, .select, .textarea, .checkbox{
+	width: 100%;
+	background: #343334;
+	border:1px solid #343334;
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+	box-sizing: border-box;
+	outline: 0;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.22);
+	font:13px 'GeomanistRegular', sans-serif;
+}
+
+.button{
+	cursor: pointer;
+	width: auto;
+}
+
+.textarea{
+	resize: none;
+	margin: 5px;
+    width: 475px;
+    height: 150px;
+}
+
+.form{
+	position: absolute;
+	background: #312F31;
+	box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.30);
+	margin:15% auto !important;
+	width: 385px;
+	left:0;
+	padding: 45px;
+	right:0;
+	top:0;
+	max-height: 100%;
+}
+
+.form span{
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.form p{
+	padding: 10px;
+	margin: 0;
+	color: #fff;
+}
+
+.form i{
+	color: #0eff00;
+}
+
+.form ul{
+	list-style-type: none;
+	padding:0;
+	margin: 0;
+}
+
+.form ul li{
+	padding: 0px 15px 0px 0px;
+	margin: 5px;
+}
+
+.tasiyici{
+	position: absolute;
+	background: #312F31;
+	box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.30);
+	margin:0 auto !important;
+	width: 1000px;
+	left:0;
+	right:0;
+	top:0;
+}
+
+.menu{
+	position: absolute;
+	max-height: 100%;
+	margin:0 auto !important;
+	width: 1000px;
+	left:0;
+	right:0;
+	top:0;
+}
+
+.menu ul{
+	list-style-type: none;
+	padding: 5px 35px;
+	margin: 0;
+}
+
+.menu ul li{
+	text-align: center;
+	float: left;
+	padding: 5px 10px;
+	margin: 5px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #F5F4F6;
+	text-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.30);
+}
+
+.menu ul li i{
+	font-size: 55px;
+}
+
+.menu ul li span{
+	display: block;
+}
+
+.bilgi{
+	color: #F5F4F6;
+    position: absolute;
+    max-height: 100%;
+    background: #383638;
+    margin: 0 auto !important;
+    width: 930px;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    top: 15%;
+    padding: 5px;
+    border: 2px solid #464646;
+}
+
+.bilgi img{
+	float: left;
+    height: 45px;
+    width: 45px;
+}
+
+.bilgi span{
+    display: block;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.sol{
+	margin-top: 20%;
+	width: 385px;
+	padding: 20px;
+	margin-left:10px;
+}
+
+.sol .baslik{
+	padding: 20px 0;
+	color: #8B898B;
+}
+
+.sol table{
+	color: #bdbdbd;
+	text-align: left;
+}
+
+.sol table th{
+	width: 150px;
+	padding: 5px;
+	margin: 5px;
+	background: #393739;
+	font-weight: normal;
+}
+
+.sol table td{
+	width: 185px;
+	padding: 5px;
+	margin: 5px;
+	background: #424142;
+}
+
+.genel{
+	margin-top: 20%;
+	width: 500px;
+	padding: 20px;
+	margin-right: 50px;
+	float: right;
+}
+
+.genel .baslik{
+	padding: 20px 0;
+	color: #8B898B;
+}
